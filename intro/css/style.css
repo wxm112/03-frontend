@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(236, 214, 236);
+    color: rgb(234, 18, 18);
+}
+/* Specificity: specify the parent elements in your selectr */
+aside {
+    background-color: rgb(229, 177, 240);
+}
+
+p {
+ border: 1px solid pink;
+}
+
+article p {
+    color: black;
+    text-decoration: underline;
+}
+/* Mathces <p class="warning"> */
+.warning {
+color: lime;
+}
+
+/*Matches <anything id="desire">*/
+#desire {
+    font-size: 500%
+}
