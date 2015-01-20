@@ -9,13 +9,23 @@ header h1 {
 }
 
 article {
-    background-color: grey;
     width: 79%; /*relateive width*/
     display: inline-block;
 }
 
 aside {
-    background-color: pink;
     width: 19%;
     display: inline-block;
+}
+
+.outer {
+    width: 50%;
+    margin: auto;
+    background-color: red;
+    padding: 15px;
+}
+
+.inner {
+    background-color: grey;
+    padding: 10px;
 }
