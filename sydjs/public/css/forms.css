@@ -1,0 +1,18 @@
+body {
+background-color: rgb(246, 243, 250);
+color: rgb(134, 135, 239);
+}
+
+div.poster {
+    position: absolute;
+    left: 300px;
+}
+
+p {
+    display: block;
+}
+
+form.anther {
+    margin-top: 80%;
+    margin-left: 40%;
+}
