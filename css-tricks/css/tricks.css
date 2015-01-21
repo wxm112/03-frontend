@@ -1,0 +1,29 @@
+body {
+    background-color: linen;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+/*display-none will not save the space for you on the screen.*/
+.display-none {
+    display: none;
+}
+
+/*visibility-hidden will save the space for you on the screen.*/
+.visibility-hidden {
+    visibility: hidden;
+}
+
+
+.display-inline {
+    display: inline;
+}
+
+
+.display-block {
+    display: block;
+}
