@@ -18,6 +18,10 @@ body {
     color: #656565;
 }
 
+img {
+    margin-bottom: 5px;
+}
+
 p.title{
 font-weight: bold;
 font-size: 17px;
@@ -42,4 +46,8 @@ font-size: 17px;
 
 a:hover {
     color: #20222a;
+}
+
+a {
+    text-decoration: none; 
 }
