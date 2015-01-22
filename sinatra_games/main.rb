@@ -54,7 +54,7 @@ end
 get '/result_rps' do
     list = ["rock","paper",'scissors']
      @choice = params[:throw]
-     @computer = list[Random.rand(1..list.length)-1]
+     @computer = list.sample
      if @choice == @computer
         erb :same_rps
     else
