@@ -1,0 +1,29 @@
+<h1>Hello</h1>
+<%= @choice %>
+<br>
+<%= @computer %>
+
+<% if @computer == "rock" %>
+    <% if @choice == "paper" %>
+        <h2>You won!</h2>
+    <% else %>
+        <h2>You lost!</h2>
+    <% end %>
+<% elsif @computer == "paper" %>
+    <% if @choice == "scissors" %>
+        <h2>You won!</h2>
+    <% else %>
+        <h2>You lost!</h2>
+    <% end %> 
+<% else %>
+    <% if @choice == "rock" %>
+        <h2>You won!</h2>
+    <% else %>
+        <h2>You lost!</h2>
+    <% end %>
+<% end %>
+
+
+<%= erb :rps, :layout =>false %>
+     
+    
