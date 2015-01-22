@@ -27,3 +27,57 @@ body {
 .display-block {
     display: block;
 }
+
+.display-inline-block {
+    border: 1px dotted orange;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.mainheading {
+    color: green;
+}
+
+.box {
+    width: 15em;
+    height: 15em;
+    border: 1px solid blue;
+    line-height: 15em;
+    text-align: center;
+}
+
+.tiny-box {
+    width: 5em;
+    height: 5em;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.position-static {
+    position: static;
+}
+
+
+.position-fixed {
+    position: fixed;
+    top: 5em;
+    right: 5em;
+}
+
+/*make parent element relative position the child element absolute. 
+then the child element's position will absolute to the parent element.
+if there is no position set up for parent element, 
+then the child element's positioin will absolute to the whole page*/
+.position-relative {
+    position: relative;
+}
+
+/*z-index just works on absolute position*/
+.position-absolute {
+    position: absolute;
+    top: 5em;
+    right: 5em;
+}
+
+
