@@ -10,6 +10,12 @@ li {
 
 a {
     
-    color: black;
+    color: rgb(207, 118, 244);
     text-decoration: none;
+    font-size: 30px;
+    margin: 1em;
+}
+
+span {
+    color: rgb(12, 161, 122);
 }
