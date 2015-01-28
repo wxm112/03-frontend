@@ -1,20 +1,11 @@
-<h2>Did you mean?  </h2>
+<h1>Did you mean?  </h1>
 
-<p>
-    
-
-<%= @array %>    
+<ul>
+     
 <% @array.each do |movie| %>
-    <h2><a href="result/<%= movie['Title'] %>"><%= movie['Title'] %></a></h2>
-    <% @movie_name == movie['Title'] %>
+    <a href="result/<%= movie['Title'] %>"><%= movie['Title'] %></a>
+    <li><% @movie_name == movie['Title'] %></li>
     <% end %>
 
-
-
-    
-
-
-
-
-</p>
+</ul>
 
